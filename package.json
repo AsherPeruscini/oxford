@@ -1,0 +1,36 @@
+{
+  "name": "Scrabbler",
+  "version": "0.0.1",
+  "description": "An Alexa-powered Scrabble™ dictionary word checker.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AsherPeruscini/scrabbler.git"
+  },
+  "keywords": [
+    "alexa",
+    "amazon",
+    "echo",
+    "scrabble",
+    "dictionary",
+    "helper",
+    "checker"
+  ],
+  "author": "Asher Peruscini",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AsherPeruscini/scrabbler/issues"
+  },
+  "homepage": "https://github.com/AsherPeruscini/scrabbler",
+  "dependencies": {
+    "alexa-app": "^2.3.4",
+    "chai": "^3.5.0",
+    "chai-as-promised": "^5.3.0",
+    "lodash": "^4.14.0",
+    "mocha": "^2.5.3",
+    "request": "^2.74.0"
+  }
+}
